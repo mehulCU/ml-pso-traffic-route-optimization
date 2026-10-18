@@ -1,0 +1,61 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Large raw datasets
+traffic_all.csv
+traffic_test.csv
+probe_counts/
+geojson/
+
+# Preserve required runtime data
+# ml/candidate_region_edges.csv
+# ml/regional_data/regional_traffic.csv
+# ml/regional_model/regional_hybrid_routing_predictions.csv
+# ml/regional_model/regional_lstm.keras
+# ml/regional_model/regional_scaler.pkl
+
+# Logs
+*.log
+
+# Ignore generated ML experiment artifacts
+ml/regional_model/*.csv
+ml/regional_model/*.png
+ml/regional_model/*.txt
+
+# Keep files required by the running API
+!ml/regional_model/regional_hybrid_routing_predictions.csv
+!ml/regional_model/regional_lstm.keras
+!ml/regional_model/regional_scaler.pkl
+
+# Keep runtime routing data
+!ml/candidate_region_edges.csv
+!ml/regional_data/regional_traffic.csv
+
+# Ignore generated ML experiment artifacts
+ml/regional_model/*.csv
+ml/regional_model/*.png
+ml/regional_model/*.txt
+
+# Keep files required by the running API
+!ml/regional_model/regional_hybrid_routing_predictions.csv
+!ml/regional_model/regional_lstm.keras
+!ml/regional_model/regional_scaler.pkl
+
+# Keep runtime routing data
+!ml/candidate_region_edges.csv
+!ml/regional_data/regional_traffic.csv
+
+# Local backup files
+*.bak

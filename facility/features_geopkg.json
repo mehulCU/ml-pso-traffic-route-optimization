@@ -1,0 +1,134 @@
+{
+    "facilities": [
+        {
+            "facility": "Education",
+            "features": [
+                "amenity:prep_school",
+                "amenity:school",
+                "amenity:college",
+                "amenity:university",
+                "amenity:language_school",
+                "building:college",
+                "building:university",
+                "landuse:education"
+            ]
+        },
+        {
+            "facility": "Healthcare",
+            "features": [
+                "amenity:doctor",
+                "amenity:hospital",
+                "amenity:clinic",
+                "amenity:pharmacy",
+                "amenity:nursing_home",
+                "amenity:Ayurvedic Hospital",
+                "amenity:dentist",
+                "amenity:community_centre"
+            ]
+        },
+        {
+            "facility": "Retail",
+            "features": [
+                "shop:mall",
+                "shop:supermarket",
+                "shop:chemist",
+                "shop:jewelry",
+                "shop:wholesale",
+                "shop:fuel",
+                "amenity:food_court",
+                "amenity:cafe",
+                "amenity:fast_food",
+                "amenity:bar"
+            ]
+        },
+        {
+            "facility": "Government",
+            "features": [
+                "amenity:courthouse",
+                "amenity:townhall",
+                "amenity:public_building",
+                "amenity:administration",
+                "office:government",
+                "building:government"
+            ]
+        },
+        {
+            "facility": "Entertainment",
+            "features": [
+                "amenity:theatre",
+                "amenity:cinema",
+                "amenity:auditorium",
+                "amenity:stage",
+                "amenity:exhibition_centre",
+                "amenity:conference_centre",
+                "amenity:events_venue",
+                "historic:monument",
+                "historic:castle",
+                "tourism:museum"
+            ]
+        },
+        {
+            "facility": "Religious",
+            "features": [
+                "amenity:place_of_worship",
+                "amenity:community_hall",
+                "amenity:social_centre",
+                "building:temple",
+                "building:church",
+                "building:mosque",
+                "building:gurudwara",
+                "tourism:Place of worship/Dharamshala"
+            ]
+        },
+        {
+            "facility": "Transport",
+            "features": [
+                "amenity:bus_station",
+                "public_transport:station",
+                "public_transport:stop_area",
+                "public_transport:platform",
+                "public_transport:stop_position",
+                "highway:bus_stop",
+                "highway:pedestrian",
+                "highway:crossing"
+            ]
+        },
+        {
+            "facility": "Leisure",
+            "features": [
+                "leisure:park",
+                "leisure:garden",
+                "leisure:playground",
+                "leisure:swimming_pool",
+                "tourism:attraction",
+                "tourism:theme_park",
+                "tourism:zoo",
+                "leisure:hotel",
+                "leisure:amusement_arcade"
+            ]
+        },
+        {
+            "facility": "Mixed",
+            "features": [
+                "building:industrial",
+                "building:commercial",
+                "building:retail",
+                "building:civic",
+                "landuse:commercial",
+                "landuse:recreation_ground"
+            ]
+        },
+        {
+            "facility": "Historic",
+            "features": [
+                "historic:wayside_shrine",
+                "historic:archaeological_site",
+                "historic:ruins",
+                "historic:memorial",
+                "historic:city_gate",
+                "landuse:Charan_Singh_Complex",
+                "landuse:Mela Ground"
+            ]
+        }
+    ]
+}

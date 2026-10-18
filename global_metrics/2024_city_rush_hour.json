@@ -1,0 +1,16 @@
+{
+    "morning_rush_hour": {
+      "time_taken_10km": "25 min 28 s",
+      "average_speed_kmh": 23.6,
+      "congestion_level_percent": 43
+    },
+    "evening_rush_hour": {
+      "time_taken_10km": "30 min 9 s",
+      "average_speed_kmh": 19.9,
+      "congestion_level_percent": 69
+    },
+    "annual_extra_rush_hour_time": {
+      "total": "76 hours (3 days, 4 hours)",
+      "difference_vs_2023": "+3 h 21 min"
+    }
+  }

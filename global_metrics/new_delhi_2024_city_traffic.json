@@ -1,0 +1,76 @@
+{
+    "average_travel_time_per_10_km": "23 min 24 s",
+    "difference_vs_2023_for_travel_time_per_10_km": "+10 s",
+    "congestion_level": 147,
+    "average_congestion_level_percent": 33,
+    "difference_vs_2023_for_congestion_level_percent": "+1%p",
+    "average_speed_km_h": 25.6,
+    "difference_vs_2023_for_speed_km_h": "-0.2 km/h",
+    "worst_day_to_travel_2024": {
+        "date": "October 25, Friday",
+        "avg_travel_time_per_10_km": "27 min 51 s",
+        "congestion_level_percent": 57
+    },
+    "monthly_congestion_level": [
+        {
+            "month": "Jan",
+            "2024": 34,
+            "2023": 33
+        },
+        {
+            "month": "Feb",
+            "2024": 34,
+            "2023": 33
+        },
+        {
+            "month": "Mar",
+            "2024": 33,
+            "2023": 30
+        },
+        {
+            "month": "Apr",
+            "2024": 30,
+            "2023": 29
+        },
+        {
+            "month": "May",
+            "2024": 28,
+            "2023": 28
+        },
+        {
+            "month": "Jun",
+            "2024": 29,
+            "2023": 27
+        },
+        {
+            "month": "Jul",
+            "2024": 34,
+            "2023": 33
+        },
+        {
+            "month": "Aug",
+            "2024": 35,
+            "2023": 34
+        },
+        {
+            "month": "Sep",
+            "2024": 37,
+            "2023": 32
+        },
+        {
+            "month": "Oct",
+            "2024": 38,
+            "2023": 31
+        },
+        {
+            "month": "Nov",
+            "2024": 30,
+            "2023": 28
+        },
+        {
+            "month": "Dec",
+            "2024": 34,
+            "2023": 38
+        }
+    ]
+}
