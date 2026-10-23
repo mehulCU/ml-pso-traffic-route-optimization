@@ -5,6 +5,7 @@ from api.services.prediction_service import predict_next_probe_count
 from api.services.routing_service import get_route_comparison
 from api.services.pso_service import get_pso_route_comparison
 from api.services.traffic_data_service import get_observation_count
+from api.services.rag_service import answer_project_question
 
 app = FastAPI(
     title="Dynamic Traffic Route Optimization API",
@@ -37,6 +38,15 @@ class PredictionResponse(BaseModel):
     predicted_probe_count: float
     forecast_horizon: str
     observations_used: int
+
+class AssistantRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    question: str = Field(
+        min_length=1,
+        max_length=2000,
+        description="Question about the traffic optimization project.",
+    )
 
 
 @app.get("/")
@@ -164,4 +174,20 @@ def database_observations(limit: int = 10):
         raise HTTPException(
             status_code=503,
             detail="Unable to retrieve traffic observations from the database.",
+        )
+
+
+@app.post("/assistant/ask")
+def ask_project_assistant(request: AssistantRequest):
+    try:
+        return answer_project_question(request.question)
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=422,
+            detail=str(exc),
+        ) from exc
+    except Exception:
+        raise HTTPException(
+            status_code=500,
+            detail="Assistant failed. Check the API server logs.",
         )
